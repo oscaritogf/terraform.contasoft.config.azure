@@ -16,7 +16,7 @@ variable "location" {
 
 variable "tags" {
     description = "all tags used"
-   // type = map
+
     default = {
         environment = "dev"
         project = "contasoft"
